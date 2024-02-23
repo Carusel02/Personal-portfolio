@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Personal Portfolio Webpage</title>
+</head>
+<body>
+
+    <header>
+        <nav id="navbar" class="nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="#welcome-section">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Work</a>
+                </li>
+                <li>
+                    <a href="#profile-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="welcome-section">
+        <div class="profile-photo">
+            <img src="https://scontent.fbcm1-1.fna.fbcdn.net/v/t39.30808-6/281096882_2053368334823813_5479360542651141157_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=QwVYZMuhxywAX8LiJ5M&_nc_ht=scontent.fbcm1-1.fna&oh=00_AfDLcJc1nxZTosjz7Pil3tcuETZlTF3g8I-ImTZ--o1H4A&oe=651D677D" alt="Marius's Profile Photo">
+        </div>
+        <h1 class="typing-text">Hi, I'm Marius!<span class="cursor"></span></h1>
+    </section>
+
+        <section id="projects">
+            <h2>Projects Section</h2>
+            <div class="project-zone">
+
+                <div class="project project-tile">
+                    <a href="https://carusel02.github.io/tehnical_page/" target="_blank">
+                        <img class="project-image" src="https://github.com/Carusel02/tehnical_page/blob/main/image_2023-10-01_150054304.png?raw=true" alt="Project Image">
+                        <p class="project-title">
+                            <span class="code"></span>
+                            Tehnical Page
+                            <span class="code"></span>
+                        </p>
+                    </a>
+                </div>
+
+
+                <div class="project project-tile">
+                    <a href="https://carusel02.github.io/survey_form/" target="_blank">
+                        <img class="project-image" src="https://github.com/Carusel02/survey_form/blob/main/image_2023-10-01_145618597.png?raw=true" alt="Project Image">
+                        <p class="project-title">
+                            <span class="code"></span>
+                            Survey Form
+                            <span class="code"></span>
+                        </p>
+                    </a>
+                </div>
+
+
+                <div class="project project-tile">
+                    <a href="https://carusel02.github.io/product_page/" target="_blank">
+                        <img class="project-image" src="https://github.com/Carusel02/product_page/blob/main/image_2023-10-01_220451310.png?raw=true" alt="Project Image">
+                        <p class="project-title">
+                            <span class="code"></span>
+                            Product Page
+                            <span class="code"></span>
+                        </p>
+                    </a>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+
+    <a id="profile-link" href="https://github.com/Carusel02" target="_blank" class="btn contact-details">
+        <i class="fab fa-github"></i> GitHub
+    </a>
+    
+    <a id="profile-link" href="https://www.facebook.com/mariusdanielmarin02/" target="_blank" class="btn contact-details">
+        <i class="fab fa-facebook"></i> Facebook
+    </a>
+
+    <a id="profile-link" href="https://www.linkedin.com/in/marius-daniel-marin-401600243/" target="_blank" class="btn contact-details">
+        <i class="fab fa-linkedin"></i> Linkedin
+    </a>
+
+
+
+</body>
+</html>
